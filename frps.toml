@@ -14,8 +14,8 @@ transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
 webServer.port = 7500
-webServer.user = "admin"
-webServer.password = "admin"
+webServer.user = "lshk"
+webServer.password = "1102336369"
 webServer.pprofEnable = false
 
 log.to = "./frps.log"
@@ -24,7 +24,7 @@ log.maxDays = 3
 log.disablePrintColor = false
 
 auth.method = "token"
-auth.token = "12345678"
+auth.token = "1102336369"
 
 allowPorts = [
   { start = 10001, end = 50000 }
